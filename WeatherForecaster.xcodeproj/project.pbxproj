@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		5BF50E521DB1392900F3658B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E511DB1392900F3658B /* main.m */; };
 		5BF50E551DB1392900F3658B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E541DB1392900F3658B /* AppDelegate.m */; };
-		5BF50E581DB1392900F3658B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E571DB1392900F3658B /* ViewController.m */; };
-		5BF50E5B1DB1392900F3658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E591DB1392900F3658B /* Main.storyboard */; };
 		5BF50E5E1DB1392900F3658B /* WeatherForecaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E5C1DB1392900F3658B /* WeatherForecaster.xcdatamodeld */; };
 		5BF50E601DB1392900F3658B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E5F1DB1392900F3658B /* Assets.xcassets */; };
 		5BF50E631DB1392900F3658B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E611DB1392900F3658B /* LaunchScreen.storyboard */; };
+		5BF50E761DB139A300F3658B /* APIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E6B1DB139A300F3658B /* APIController.m */; };
+		5BF50E771DB139A300F3658B /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E6D1DB139A300F3658B /* City.m */; };
+		5BF50E781DB139A300F3658B /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E6F1DB139A300F3658B /* CityTableViewController.m */; };
+		5BF50E791DB139A300F3658B /* SearchZipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E711DB139A300F3658B /* SearchZipViewController.m */; };
+		5BF50E7A1DB139A300F3658B /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E731DB139A300F3658B /* Weather.m */; };
+		5BF50E7B1DB139A300F3658B /* WeatherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E751DB139A300F3658B /* WeatherDetailViewController.m */; };
+		5BF50E7D1DB139DE00F3658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E7C1DB139DE00F3658B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,23 @@
 		5BF50E511DB1392900F3658B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BF50E531DB1392900F3658B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BF50E541DB1392900F3658B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BF50E561DB1392900F3658B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BF50E571DB1392900F3658B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5BF50E5A1DB1392900F3658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF50E5D1DB1392900F3658B /* WeatherForecaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherForecaster.xcdatamodel; sourceTree = "<group>"; };
 		5BF50E5F1DB1392900F3658B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF50E621DB1392900F3658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF50E641DB1392900F3658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF50E6A1DB139A300F3658B /* APIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIController.h; sourceTree = "<group>"; };
+		5BF50E6B1DB139A300F3658B /* APIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIController.m; sourceTree = "<group>"; };
+		5BF50E6C1DB139A300F3658B /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		5BF50E6D1DB139A300F3658B /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		5BF50E6E1DB139A300F3658B /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		5BF50E6F1DB139A300F3658B /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		5BF50E701DB139A300F3658B /* SearchZipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchZipViewController.h; sourceTree = "<group>"; };
+		5BF50E711DB139A300F3658B /* SearchZipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchZipViewController.m; sourceTree = "<group>"; };
+		5BF50E721DB139A300F3658B /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		5BF50E731DB139A300F3658B /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		5BF50E741DB139A300F3658B /* WeatherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetailViewController.h; sourceTree = "<group>"; };
+		5BF50E751DB139A300F3658B /* WeatherDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailViewController.m; sourceTree = "<group>"; };
+		5BF50E7C1DB139DE00F3658B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +77,21 @@
 			children = (
 				5BF50E531DB1392900F3658B /* AppDelegate.h */,
 				5BF50E541DB1392900F3658B /* AppDelegate.m */,
-				5BF50E561DB1392900F3658B /* ViewController.h */,
-				5BF50E571DB1392900F3658B /* ViewController.m */,
-				5BF50E591DB1392900F3658B /* Main.storyboard */,
+				5BF50E6A1DB139A300F3658B /* APIController.h */,
+				5BF50E6B1DB139A300F3658B /* APIController.m */,
+				5BF50E6C1DB139A300F3658B /* City.h */,
+				5BF50E6D1DB139A300F3658B /* City.m */,
+				5BF50E6E1DB139A300F3658B /* CityTableViewController.h */,
+				5BF50E6F1DB139A300F3658B /* CityTableViewController.m */,
+				5BF50E701DB139A300F3658B /* SearchZipViewController.h */,
+				5BF50E711DB139A300F3658B /* SearchZipViewController.m */,
+				5BF50E721DB139A300F3658B /* Weather.h */,
+				5BF50E731DB139A300F3658B /* Weather.m */,
+				5BF50E741DB139A300F3658B /* WeatherDetailViewController.h */,
+				5BF50E751DB139A300F3658B /* WeatherDetailViewController.m */,
 				5BF50E5F1DB1392900F3658B /* Assets.xcassets */,
 				5BF50E611DB1392900F3658B /* LaunchScreen.storyboard */,
+				5BF50E7C1DB139DE00F3658B /* Main.storyboard */,
 				5BF50E641DB1392900F3658B /* Info.plist */,
 				5BF50E5C1DB1392900F3658B /* WeatherForecaster.xcdatamodeld */,
 				5BF50E501DB1392900F3658B /* Supporting Files */,
@@ -140,9 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF50E7D1DB139DE00F3658B /* Main.storyboard in Resources */,
 				5BF50E631DB1392900F3658B /* LaunchScreen.storyboard in Resources */,
 				5BF50E601DB1392900F3658B /* Assets.xcassets in Resources */,
-				5BF50E5B1DB1392900F3658B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF50E791DB139A300F3658B /* SearchZipViewController.m in Sources */,
+				5BF50E781DB139A300F3658B /* CityTableViewController.m in Sources */,
+				5BF50E771DB139A300F3658B /* City.m in Sources */,
+				5BF50E761DB139A300F3658B /* APIController.m in Sources */,
+				5BF50E7A1DB139A300F3658B /* Weather.m in Sources */,
 				5BF50E5E1DB1392900F3658B /* WeatherForecaster.xcdatamodeld in Sources */,
-				5BF50E581DB1392900F3658B /* ViewController.m in Sources */,
+				5BF50E7B1DB139A300F3658B /* WeatherDetailViewController.m in Sources */,
 				5BF50E551DB1392900F3658B /* AppDelegate.m in Sources */,
 				5BF50E521DB1392900F3658B /* main.m in Sources */,
 			);
@@ -163,14 +193,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BF50E591DB1392900F3658B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BF50E5A1DB1392900F3658B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BF50E611DB1392900F3658B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
