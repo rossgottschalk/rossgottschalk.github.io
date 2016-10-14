@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		5BF50E8B1DB13BAD00F3658B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E8A1DB13BAD00F3658B /* AppDelegate.swift */; };
-		5BF50E8D1DB13BAD00F3658B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50E8C1DB13BAD00F3658B /* ViewController.swift */; };
-		5BF50E901DB13BAD00F3658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E8E1DB13BAD00F3658B /* Main.storyboard */; };
 		5BF50E921DB13BAD00F3658B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E911DB13BAD00F3658B /* Assets.xcassets */; };
 		5BF50E951DB13BAD00F3658B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E931DB13BAD00F3658B /* LaunchScreen.storyboard */; };
+		5BF50EB31DB13C0300F3658B /* anthonyDavis.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E9C1DB13C0300F3658B /* anthonyDavis.png */; };
+		5BF50EB41DB13C0300F3658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E9D1DB13C0300F3658B /* Main.storyboard */; };
+		5BF50EB51DB13C0300F3658B /* blazers.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E9E1DB13C0300F3658B /* blazers.png */; };
+		5BF50EB61DB13C0300F3658B /* cavaliers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50E9F1DB13C0300F3658B /* cavaliers.gif */; };
+		5BF50EB71DB13C0300F3658B /* cousins.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA01DB13C0300F3658B /* cousins.png */; };
+		5BF50EB81DB13C0300F3658B /* curry.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA11DB13C0300F3658B /* curry.png */; };
+		5BF50EB91DB13C0300F3658B /* durant.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA21DB13C0300F3658B /* durant.png */; };
+		5BF50EBA1DB13C0300F3658B /* george.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA31DB13C0300F3658B /* george.png */; };
+		5BF50EBB1DB13C0300F3658B /* harden.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA41DB13C0300F3658B /* harden.png */; };
+		5BF50EBC1DB13C0300F3658B /* kings.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA51DB13C0300F3658B /* kings.gif */; };
+		5BF50EBD1DB13C0300F3658B /* klay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA61DB13C0300F3658B /* klay.png */; };
+		5BF50EBE1DB13C0300F3658B /* Lebron.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA71DB13C0300F3658B /* Lebron.png */; };
+		5BF50EBF1DB13C0300F3658B /* lillard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA81DB13C0300F3658B /* lillard.png */; };
+		5BF50EC01DB13C0300F3658B /* NBAPlayers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EA91DB13C0300F3658B /* NBAPlayers.json */; };
+		5BF50EC11DB13C0300F3658B /* pacers.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EAA1DB13C0300F3658B /* pacers.png */; };
+		5BF50EC21DB13C0300F3658B /* pelicans.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EAB1DB13C0300F3658B /* pelicans.gif */; };
+		5BF50EC31DB13C0300F3658B /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50EAC1DB13C0300F3658B /* PlayerClass.swift */; };
+		5BF50EC41DB13C0300F3658B /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50EAD1DB13C0300F3658B /* PlayerDetailViewController.swift */; };
+		5BF50EC51DB13C0300F3658B /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF50EAE1DB13C0300F3658B /* PlayerTableViewController.swift */; };
+		5BF50EC61DB13C0300F3658B /* rockets.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EAF1DB13C0300F3658B /* rockets.gif */; };
+		5BF50EC71DB13C0300F3658B /* thunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EB01DB13C0300F3658B /* thunder.png */; };
+		5BF50EC81DB13C0300F3658B /* warriors.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EB11DB13C0300F3658B /* warriors.gif */; };
+		5BF50EC91DB13C0300F3658B /* westbrook.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF50EB21DB13C0300F3658B /* westbrook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BF50E871DB13BAD00F3658B /* NBADiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBADiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF50E8A1DB13BAD00F3658B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BF50E8C1DB13BAD00F3658B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BF50E8F1DB13BAD00F3658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF50E911DB13BAD00F3658B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF50E941DB13BAD00F3658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF50E961DB13BAD00F3658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF50E9C1DB13C0300F3658B /* anthonyDavis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anthonyDavis.png; sourceTree = "<group>"; };
+		5BF50E9D1DB13C0300F3658B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5BF50E9E1DB13C0300F3658B /* blazers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blazers.png; sourceTree = "<group>"; };
+		5BF50E9F1DB13C0300F3658B /* cavaliers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cavaliers.gif; sourceTree = "<group>"; };
+		5BF50EA01DB13C0300F3658B /* cousins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cousins.png; sourceTree = "<group>"; };
+		5BF50EA11DB13C0300F3658B /* curry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curry.png; sourceTree = "<group>"; };
+		5BF50EA21DB13C0300F3658B /* durant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = durant.png; sourceTree = "<group>"; };
+		5BF50EA31DB13C0300F3658B /* george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = george.png; sourceTree = "<group>"; };
+		5BF50EA41DB13C0300F3658B /* harden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harden.png; sourceTree = "<group>"; };
+		5BF50EA51DB13C0300F3658B /* kings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kings.gif; sourceTree = "<group>"; };
+		5BF50EA61DB13C0300F3658B /* klay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klay.png; sourceTree = "<group>"; };
+		5BF50EA71DB13C0300F3658B /* Lebron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lebron.png; sourceTree = "<group>"; };
+		5BF50EA81DB13C0300F3658B /* lillard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lillard.png; sourceTree = "<group>"; };
+		5BF50EA91DB13C0300F3658B /* NBAPlayers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NBAPlayers.json; sourceTree = "<group>"; };
+		5BF50EAA1DB13C0300F3658B /* pacers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacers.png; sourceTree = "<group>"; };
+		5BF50EAB1DB13C0300F3658B /* pelicans.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pelicans.gif; sourceTree = "<group>"; };
+		5BF50EAC1DB13C0300F3658B /* PlayerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+		5BF50EAD1DB13C0300F3658B /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		5BF50EAE1DB13C0300F3658B /* PlayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		5BF50EAF1DB13C0300F3658B /* rockets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rockets.gif; sourceTree = "<group>"; };
+		5BF50EB01DB13C0300F3658B /* thunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thunder.png; sourceTree = "<group>"; };
+		5BF50EB11DB13C0300F3658B /* warriors.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = warriors.gif; sourceTree = "<group>"; };
+		5BF50EB21DB13C0300F3658B /* westbrook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = westbrook.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +97,50 @@
 			isa = PBXGroup;
 			children = (
 				5BF50E8A1DB13BAD00F3658B /* AppDelegate.swift */,
-				5BF50E8C1DB13BAD00F3658B /* ViewController.swift */,
-				5BF50E8E1DB13BAD00F3658B /* Main.storyboard */,
+				5BF50EAE1DB13C0300F3658B /* PlayerTableViewController.swift */,
+				5BF50EAD1DB13C0300F3658B /* PlayerDetailViewController.swift */,
+				5BF50EAC1DB13C0300F3658B /* PlayerClass.swift */,
+				5BF50EA91DB13C0300F3658B /* NBAPlayers.json */,
+				5BF50ECA1DB13C4700F3658B /* Logos */,
+				5BF50ECB1DB13C8100F3658B /* Photos */,
 				5BF50E911DB13BAD00F3658B /* Assets.xcassets */,
+				5BF50E9D1DB13C0300F3658B /* Main.storyboard */,
 				5BF50E931DB13BAD00F3658B /* LaunchScreen.storyboard */,
 				5BF50E961DB13BAD00F3658B /* Info.plist */,
 			);
 			path = NBADiary;
+			sourceTree = "<group>";
+		};
+		5BF50ECA1DB13C4700F3658B /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				5BF50EA51DB13C0300F3658B /* kings.gif */,
+				5BF50EAA1DB13C0300F3658B /* pacers.png */,
+				5BF50EAF1DB13C0300F3658B /* rockets.gif */,
+				5BF50EB01DB13C0300F3658B /* thunder.png */,
+				5BF50EB11DB13C0300F3658B /* warriors.gif */,
+				5BF50EAB1DB13C0300F3658B /* pelicans.gif */,
+				5BF50E9F1DB13C0300F3658B /* cavaliers.gif */,
+				5BF50E9E1DB13C0300F3658B /* blazers.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		5BF50ECB1DB13C8100F3658B /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				5BF50E9C1DB13C0300F3658B /* anthonyDavis.png */,
+				5BF50EA31DB13C0300F3658B /* george.png */,
+				5BF50EA21DB13C0300F3658B /* durant.png */,
+				5BF50EB21DB13C0300F3658B /* westbrook.png */,
+				5BF50EA81DB13C0300F3658B /* lillard.png */,
+				5BF50EA11DB13C0300F3658B /* curry.png */,
+				5BF50EA71DB13C0300F3658B /* Lebron.png */,
+				5BF50EA61DB13C0300F3658B /* klay.png */,
+				5BF50EA01DB13C0300F3658B /* cousins.png */,
+				5BF50EA41DB13C0300F3658B /* harden.png */,
+			);
+			name = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +202,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF50EB31DB13C0300F3658B /* anthonyDavis.png in Resources */,
+				5BF50EBC1DB13C0300F3658B /* kings.gif in Resources */,
+				5BF50EB81DB13C0300F3658B /* curry.png in Resources */,
+				5BF50EBA1DB13C0300F3658B /* george.png in Resources */,
+				5BF50EB91DB13C0300F3658B /* durant.png in Resources */,
+				5BF50EC81DB13C0300F3658B /* warriors.gif in Resources */,
+				5BF50EBF1DB13C0300F3658B /* lillard.png in Resources */,
+				5BF50EC11DB13C0300F3658B /* pacers.png in Resources */,
+				5BF50EBE1DB13C0300F3658B /* Lebron.png in Resources */,
 				5BF50E951DB13BAD00F3658B /* LaunchScreen.storyboard in Resources */,
+				5BF50EC91DB13C0300F3658B /* westbrook.png in Resources */,
+				5BF50EC01DB13C0300F3658B /* NBAPlayers.json in Resources */,
+				5BF50EB51DB13C0300F3658B /* blazers.png in Resources */,
 				5BF50E921DB13BAD00F3658B /* Assets.xcassets in Resources */,
-				5BF50E901DB13BAD00F3658B /* Main.storyboard in Resources */,
+				5BF50EB41DB13C0300F3658B /* Main.storyboard in Resources */,
+				5BF50EB61DB13C0300F3658B /* cavaliers.gif in Resources */,
+				5BF50EBD1DB13C0300F3658B /* klay.png in Resources */,
+				5BF50EC21DB13C0300F3658B /* pelicans.gif in Resources */,
+				5BF50EC71DB13C0300F3658B /* thunder.png in Resources */,
+				5BF50EC61DB13C0300F3658B /* rockets.gif in Resources */,
+				5BF50EBB1DB13C0300F3658B /* harden.png in Resources */,
+				5BF50EB71DB13C0300F3658B /* cousins.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +234,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF50E8D1DB13BAD00F3658B /* ViewController.swift in Sources */,
 				5BF50E8B1DB13BAD00F3658B /* AppDelegate.swift in Sources */,
+				5BF50EC31DB13C0300F3658B /* PlayerClass.swift in Sources */,
+				5BF50EC51DB13C0300F3658B /* PlayerTableViewController.swift in Sources */,
+				5BF50EC41DB13C0300F3658B /* PlayerDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BF50E8E1DB13BAD00F3658B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BF50E8F1DB13BAD00F3658B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BF50E931DB13BAD00F3658B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

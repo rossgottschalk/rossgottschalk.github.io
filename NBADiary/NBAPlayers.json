@@ -1,0 +1,83 @@
+ [
+  {
+		"name": "Lebron James",
+		"position": "SF",
+		"team": "Cleveland Cavaliers",
+        "picture": "Lebron.png",
+        "teamLogo": "cavaliers.gif",
+        "accolades": "ORTG:116.5 | DRTG:102.3 | PER 27.49 | eFG% .551"
+        
+  },
+  {
+		"name": "Stephen Curry",
+		"position": "PG",
+		"team": "Golden State Warriors",
+        "picture": "curry.png",
+        "teamLogo": "warriors.gif",
+        "accolades": "ORTG:124.7 | DRTG:102.8 | PER 31.29 | eFG% .630"
+  },
+  {
+		"name": "Kevin Durant",
+		"position": "SF",
+		"team": "Golden State Warriors",
+        "picture": "durant.png",
+        "teamLogo": "warriors.gif",
+        "accolades": "ORTG:107.2 | DRTG:107.3 | PER 21.28 | eFG% .468"
+  },
+  {
+		"name": "Anthony Davis",
+		"position": "PF",
+		"team": "New Orleans Pelicans",
+        "picture": "anthonyDavis.png",
+        "teamLogo": "pelicans.gif",
+        "accolades": "ORTG:109.0 | DRTG:96.4 | PER 34.23 | eFG% .481"
+  },
+  {
+		"name": "Russell Westbrook",
+		"position": "PG",
+		"team": "Oklahoma City Thunder",
+        "picture": "westbrook.png",
+        "teamLogo": "thunder.png",
+        "accolades": "ORTG:111.7 | DRTG:104.9 | PER 28.16 | eFG% .448"
+  },
+  {
+		"name": "Paul George",
+		"position": "SF",
+		"team": "Indiana Pacers",
+        "picture": "george.png",
+        "teamLogo": "pacers.png",
+        "accolades": "ORTG:106.0 | DRTG:101.0 | PER 20.9 | eFG% .490"
+  },
+  {
+		"name": "Damian Lillard",
+		"position": "PG",
+		"team": "Portland Trail Blazers",
+        "picture": "lillard.png",
+        "teamLogo": "blazers.png",
+        "accolades": "ORTG:112.3 | DRTG:110.8 | PER 22.13 | eFG% .497"
+  },
+  {
+		"name": "DeMarcus Cousins",
+		"position": "C",
+		"team": "Sacramento Kings",
+        "picture": "cousins.png",
+        "teamLogo": "kings.gif",
+        "accolades": "ORTG:103.1 | DRTG:102.4 | PER 23.3 | eFG% .477"
+  },
+  {
+        "name": "Klay Thompson",
+        "position": "SG",
+        "team": "Golden State Warriors",
+        "picture": "klay.png",
+        "teamLogo": "warriors.gif",
+        "accolades": "ORTG:112.2 | DRTG:107.9 | PER 18.5 | eFG% .569"
+  },
+  {
+        "name": "James Harden",
+        "position": "SG",
+        "team": "Houston Rockets",
+        "picture": "harden.png",
+        "teamLogo": "rockets.gif",
+        "accolades": "ORTG:117.1 | DRTG:106.4 | PER 22.2 | eFG% .512"
+  }
+]
