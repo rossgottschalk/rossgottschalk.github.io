@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F60CB861D93069900FE3929 /* MoviesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB851D93069900FE3929 /* MoviesCollectionViewController.swift */; };
+		2F60CB8A1D9306E800FE3929 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB891D9306E800FE3929 /* FavoritesTableViewController.swift */; };
+		2F60CB8C1D9424DE00FE3929 /* GenreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB8B1D9424DE00FE3929 /* GenreTableViewController.swift */; };
+		2F60CB921D94257B00FE3929 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB911D94257B00FE3929 /* FavoritesCell.swift */; };
+		2F60CB941D9425A200FE3929 /* MoviePosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB931D9425A200FE3929 /* MoviePosterCell.swift */; };
+		2F60CB971D946BD400FE3929 /* FIRDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60CB961D946BD300FE3929 /* FIRDataObject.swift */; };
+		2F653A281D92FD990000A9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F653A271D92FD990000A9FC /* AppDelegate.swift */; };
+		2F653A2F1D92FD990000A9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F653A2D1D92FD990000A9FC /* Main.storyboard */; };
+		2F653A341D92FD990000A9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F653A321D92FD990000A9FC /* LaunchScreen.storyboard */; };
+		2F653A3C1D92FDDD0000A9FC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F653A3B1D92FDDD0000A9FC /* Movie.swift */; };
+		2F653A3E1D92FE710000A9FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F653A3D1D92FE710000A9FC /* GoogleService-Info.plist */; };
+		2F79108F1DA5804C0075CE75 /* Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F79108D1DA5804C0075CE75 /* Star-25.png */; };
+		2F7910901DA5804C0075CE75 /* Tickets-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F79108E1DA5804C0075CE75 /* Tickets-25.png */; };
+		2F7E3AC71DA03AB700CCA50D /* MovieDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E3AC61DA03AB700CCA50D /* MovieDetailTableViewController.swift */; };
+		2F8788201D9708600009E29A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87881F1D9708600009E29A /* LoginViewController.swift */; };
+		2F8788221D970CD20009E29A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8788211D970CD20009E29A /* AppState.swift */; };
+		2F8E4E0C1DA17F6D001823DD /* MovieLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E4E0B1DA17F6D001823DD /* MovieLayout.swift */; };
+		2F97B48C1DA3339E00531C55 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F97B48B1DA3339E00531C55 /* RoundedCornersView.swift */; };
+		2FB61BC61DA2AD390068838A /* HuntForTheWilderpeople.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B6E1DA2AD390068838A /* HuntForTheWilderpeople.jpg */; };
+		2FB61BC71DA2AD390068838A /* 90DegreesNorth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B6F1DA2AD390068838A /* 90DegreesNorth.jpg */; };
+		2FB61BC81DA2AD390068838A /* AccidentsBlundersAndCalamities.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B701DA2AD390068838A /* AccidentsBlundersAndCalamities.jpg */; };
+		2FB61BC91DA2AD390068838A /* AnActOfLove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B711DA2AD390068838A /* AnActOfLove.jpg */; };
+		2FB61BCA1DA2AD390068838A /* AnArmsLength.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B721DA2AD390068838A /* AnArmsLength.jpg */; };
+		2FB61BCB1DA2AD390068838A /* AprilAndTheExtraordinaryWorld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B731DA2AD390068838A /* AprilAndTheExtraordinaryWorld.jpg */; };
+		2FB61BCC1DA2AD390068838A /* BaconandGodsWrath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B741DA2AD390068838A /* BaconandGodsWrath.jpg */; };
+		2FB61BCD1DA2AD390068838A /* BecomingBlair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B751DA2AD390068838A /* BecomingBlair.jpg */; };
+		2FB61BCE1DA2AD390068838A /* BeingCharlie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B761DA2AD390068838A /* BeingCharlie.jpg */; };
+		2FB61BCF1DA2AD390068838A /* BestAndMostBeautifulThings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B771DA2AD390068838A /* BestAndMostBeautifulThings.jpg */; };
+		2FB61BD01DA2AD390068838A /* BoyRazor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B781DA2AD390068838A /* BoyRazor.jpg */; };
+		2FB61BD11DA2AD390068838A /* Bridgend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B791DA2AD390068838A /* Bridgend.jpg */; };
+		2FB61BD21DA2AD390068838A /* ButterflyHunter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7A1DA2AD390068838A /* ButterflyHunter.jpg */; };
+		2FB61BD31DA2AD390068838A /* Carlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7B1DA2AD390068838A /* Carlo.jpg */; };
+		2FB61BD41DA2AD390068838A /* Cheerleader.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7C1DA2AD390068838A /* Cheerleader.png */; };
+		2FB61BD51DA2AD390068838A /* CrushTheSkull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7D1DA2AD390068838A /* CrushTheSkull.jpg */; };
+		2FB61BD61DA2AD390068838A /* DannySays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7E1DA2AD390068838A /* DannySays.jpg */; };
+		2FB61BD71DA2AD390068838A /* DeerFlower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B7F1DA2AD390068838A /* DeerFlower.jpg */; };
+		2FB61BD81DA2AD390068838A /* Dissonance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B801DA2AD390068838A /* Dissonance.jpg */; };
+		2FB61BD91DA2AD390068838A /* DonaldCried.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B811DA2AD390068838A /* DonaldCried.jpg */; };
+		2FB61BDA1DA2AD390068838A /* Edmond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B821DA2AD390068838A /* Edmond.jpg */; };
+		2FB61BDB1DA2AD390068838A /* Embers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B831DA2AD390068838A /* Embers.jpg */; };
+		2FB61BDC1DA2AD390068838A /* Entrapped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B841DA2AD390068838A /* Entrapped.jpg */; };
+		2FB61BDD1DA2AD390068838A /* Figure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B851DA2AD390068838A /* Figure.jpg */; };
+		2FB61BDE1DA2AD390068838A /* GhostCell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B861DA2AD390068838A /* GhostCell.jpg */; };
+		2FB61BDF1DA2AD390068838A /* HighRise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B871DA2AD390068838A /* HighRise.jpg */; };
+		2FB61BE01DA2AD390068838A /* HiHowAreYouDanielJohnston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B881DA2AD390068838A /* HiHowAreYouDanielJohnston.jpg */; };
+		2FB61BE11DA2AD390068838A /* HoneyBuddies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B891DA2AD390068838A /* HoneyBuddies.jpg */; };
+		2FB61BE21DA2AD390068838A /* HooliganSparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8A1DA2AD390068838A /* HooliganSparrow.png */; };
+		2FB61BE31DA2AD390068838A /* HunkyDory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8B1DA2AD390068838A /* HunkyDory.jpg */; };
+		2FB61BE41DA2AD390068838A /* IAmYupik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8C1DA2AD390068838A /* IAmYupik.jpg */; };
+		2FB61BE51DA2AD390068838A /* IThoughtIToldYouToShutUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8D1DA2AD390068838A /* IThoughtIToldYouToShutUp.jpg */; };
+		2FB61BE61DA2AD390068838A /* KingGeorges.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8E1DA2AD390068838A /* KingGeorges.jpg */; };
+		2FB61BE71DA2AD390068838A /* Lamb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B8F1DA2AD390068838A /* Lamb.jpg */; };
+		2FB61BE81DA2AD390068838A /* LeftOnPurpose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B901DA2AD390068838A /* LeftOnPurpose.jpg */; };
+		2FB61BE91DA2AD390068838A /* LifeIsRugged.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B911DA2AD390068838A /* LifeIsRugged.jpg */; };
+		2FB61BEA1DA2AD390068838A /* LifeSmartphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B921DA2AD390068838A /* LifeSmartphone.jpg */; };
+		2FB61BEB1DA2AD390068838A /* LifeWithHermanHRott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B931DA2AD390068838A /* LifeWithHermanHRott.jpg */; };
+		2FB61BEC1DA2AD390068838A /* LiveFastDrawYung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B941DA2AD390068838A /* LiveFastDrawYung.jpg */; };
+		2FB61BED1DA2AD390068838A /* LoAndBeholdReveriesOfTheConnectedWorld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B951DA2AD390068838A /* LoAndBeholdReveriesOfTheConnectedWorld.jpg */; };
+		2FB61BEE1DA2AD390068838A /* Lolo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B961DA2AD390068838A /* Lolo.jpg */; };
+		2FB61BEF1DA2AD390068838A /* LouderThanBombs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B971DA2AD390068838A /* LouderThanBombs.jpg */; };
+		2FB61BF01DA2AD390068838A /* LoveAndFriendship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B981DA2AD390068838A /* LoveAndFriendship.jpg */; };
+		2FB61BF11DA2AD390068838A /* Mad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B991DA2AD390068838A /* Mad.jpg */; };
+		2FB61BF21DA2AD390068838A /* ManVsSnakeTheLongAndTwistedTaleOfNibbler.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9A1DA2AD390068838A /* ManVsSnakeTheLongAndTwistedTaleOfNibbler.png */; };
+		2FB61BF31DA2AD390068838A /* MorrisFromAmerica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9B1DA2AD390068838A /* MorrisFromAmerica.jpg */; };
+		2FB61BF41DA2AD390068838A /* MyBigNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9C1DA2AD390068838A /* MyBigNight.jpg */; };
+		2FB61BF51DA2AD390068838A /* Nelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9D1DA2AD390068838A /* Nelly.jpg */; };
+		2FB61BF61DA2AD390068838A /* Newman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9E1DA2AD390068838A /* Newman.jpg */; };
+		2FB61BF71DA2AD390068838A /* NormanLearJustAnotherVersionOfYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61B9F1DA2AD390068838A /* NormanLearJustAnotherVersionOfYou.jpg */; };
+		2FB61BF81DA2AD390068838A /* Oktopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA01DA2AD390068838A /* Oktopus.jpg */; };
+		2FB61BF91DA2AD390068838A /* PhantomBoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA11DA2AD390068838A /* PhantomBoy.jpg */; };
+		2FB61BFA1DA2AD390068838A /* Pickle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA21DA2AD390068838A /* Pickle.jpg */; };
+		2FB61BFB1DA2AD390068838A /* PitterPatterGoesMyHeart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA31DA2AD390068838A /* PitterPatterGoesMyHeart.jpg */; };
+		2FB61BFC1DA2AD390068838A /* PresentingPrincessShaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA41DA2AD390068838A /* PresentingPrincessShaw.jpg */; };
+		2FB61BFD1DA2AD390068838A /* PureConcentricity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA51DA2AD390068838A /* PureConcentricity.jpg */; };
+		2FB61BFE1DA2AD390068838A /* QueerHabits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA61DA2AD390068838A /* QueerHabits.jpg */; };
+		2FB61BFF1DA2AD390068838A /* RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA71DA2AD390068838A /* RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg */; };
+		2FB61C001DA2AD390068838A /* RomeoIsBleeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA81DA2AD390068838A /* RomeoIsBleeding.jpg */; };
+		2FB61C011DA2AD390068838A /* Rotatio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BA91DA2AD390068838A /* Rotatio.jpg */; };
+		2FB61C021DA2AD390068838A /* SeedTheUntoldStory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAA1DA2AD390068838A /* SeedTheUntoldStory.jpg */; };
+		2FB61C031DA2AD390068838A /* Seide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAB1DA2AD390068838A /* Seide.jpg */; };
+		2FB61C041DA2AD390068838A /* Semele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAC1DA2AD390068838A /* Semele.jpg */; };
+		2FB61C051DA2AD390068838A /* Slash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAD1DA2AD390068838A /* Slash.jpg */; };
+		2FB61C061DA2AD390068838A /* Sonita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAE1DA2AD390068838A /* Sonita.jpg */; };
+		2FB61C071DA2AD390068838A /* Supervenus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BAF1DA2AD390068838A /* Supervenus.jpg */; };
+		2FB61C081DA2AD390068838A /* SylJohnsonAnyWayTheWindBlows.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB01DA2AD390068838A /* SylJohnsonAnyWayTheWindBlows.png */; };
+		2FB61C091DA2AD390068838A /* TakingFlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB11DA2AD390068838A /* TakingFlight.jpg */; };
+		2FB61C0A1DA2AD390068838A /* ThankYouDelTheStoryOfTheDelCloseMarathon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB21DA2AD390068838A /* ThankYouDelTheStoryOfTheDelCloseMarathon.jpg */; };
+		2FB61C0B1DA2AD390068838A /* The JazzLoftAccordingToWEugeneSmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB31DA2AD390068838A /* The JazzLoftAccordingToWEugeneSmith.jpg */; };
+		2FB61C0C1DA2AD390068838A /* The100YearsShow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB41DA2AD390068838A /* The100YearsShow.jpg */; };
+		2FB61C0D1DA2AD390068838A /* The414sTheOriginalTeenageHackers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB51DA2AD390068838A /* The414sTheOriginalTeenageHackers.jpg */; };
+		2FB61C0E1DA2AD390068838A /* TheBabushkasOfChernobyl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB61DA2AD390068838A /* TheBabushkasOfChernobyl.jpg */; };
+		2FB61C0F1DA2AD390068838A /* TheFamilyFang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB71DA2AD390068838A /* TheFamilyFang.jpg */; };
+		2FB61C101DA2AD390068838A /* TheHouseIsInnocent.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB81DA2AD390068838A /* TheHouseIsInnocent.png */; };
+		2FB61C111DA2AD390068838A /* TheOtherKids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BB91DA2AD390068838A /* TheOtherKids.jpg */; };
+		2FB61C121DA2AD390068838A /* TheSendOff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBA1DA2AD390068838A /* TheSendOff.jpg */; };
+		2FB61C131DA2AD390068838A /* TheTrialsOfConstanceBakerMotley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBB1DA2AD390068838A /* TheTrialsOfConstanceBakerMotley.jpg */; };
+		2FB61C141DA2AD390068838A /* TheTricksList.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBC1DA2AD390068838A /* TheTricksList.jpg */; };
+		2FB61C151DA2AD390068838A /* Tickled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBD1DA2AD390068838A /* Tickled.jpg */; };
+		2FB61C161DA2AD390068838A /* Timber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBE1DA2AD390068838A /* Timber.jpg */; };
+		2FB61C171DA2AD390068838A /* ToKeepTheLight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BBF1DA2AD390068838A /* ToKeepTheLight.jpg */; };
+		2FB61C181DA2AD390068838A /* TrafficStop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC01DA2AD390068838A /* TrafficStop.jpg */; };
+		2FB61C191DA2AD390068838A /* Violet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC11DA2AD390068838A /* Violet.jpg */; };
+		2FB61C1A1DA2AD390068838A /* VisitingHausbesuche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC21DA2AD390068838A /* VisitingHausbesuche.jpg */; };
+		2FB61C1B1DA2AD390068838A /* WeLiveThis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC31DA2AD390068838A /* WeLiveThis.jpg */; };
+		2FB61C1C1DA2AD390068838A /* Whole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC41DA2AD390068838A /* Whole.jpg */; };
+		2FB61C1D1DA2AD390068838A /* WhosAfraidOfVirginiaWoolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61BC51DA2AD390068838A /* WhosAfraidOfVirginiaWoolf.jpg */; };
+		2FC36D6F1DABCC75007C7FF4 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC36D6E1DABCC75007C7FF4 /* Icon.xcassets */; };
+		2FDA95C51DAAD30200104F3E /* projector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FDA95C41DAAD30200104F3E /* projector.png */; };
+		5BAF48A61DA299C000C01232 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF48A51DA299C000C01232 /* Favorites.swift */; };
+		6891F0A9CC244092990AC51F /* Pods_FilmFest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50C924ECFA808580252C285 /* Pods_FilmFest2.framework */; };
+		9F469016B0A956BD19BD8F4C /* Pods_FilmFest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3414F18F5D025320917AE77 /* Pods_FilmFest2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F60CB851D93069900FE3929 /* MoviesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewController.swift; sourceTree = "<group>"; };
+		2F60CB891D9306E800FE3929 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		2F60CB8B1D9424DE00FE3929 /* GenreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreTableViewController.swift; sourceTree = "<group>"; };
+		2F60CB911D94257B00FE3929 /* FavoritesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		2F60CB931D9425A200FE3929 /* MoviePosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePosterCell.swift; sourceTree = "<group>"; };
+		2F60CB961D946BD300FE3929 /* FIRDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDataObject.swift; sourceTree = "<group>"; };
+		2F653A241D92FD990000A9FC /* FilmFest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmFest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F653A271D92FD990000A9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F653A2E1D92FD990000A9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F653A331D92FD990000A9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F653A351D92FD990000A9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F653A3B1D92FDDD0000A9FC /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2F653A3D1D92FE710000A9FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F79108D1DA5804C0075CE75 /* Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-25.png"; sourceTree = "<group>"; };
+		2F79108E1DA5804C0075CE75 /* Tickets-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tickets-25.png"; sourceTree = "<group>"; };
+		2F7E3AC61DA03AB700CCA50D /* MovieDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailTableViewController.swift; sourceTree = "<group>"; };
+		2F87881F1D9708600009E29A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F8788211D970CD20009E29A /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2F8E4E0B1DA17F6D001823DD /* MovieLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLayout.swift; sourceTree = "<group>"; };
+		2F97B48B1DA3339E00531C55 /* RoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		2FA807D11D9D621600E3B481 /* FilmFest2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmFest2.entitlements; sourceTree = "<group>"; };
+		2FB61B6E1DA2AD390068838A /* HuntForTheWilderpeople.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HuntForTheWilderpeople.jpg; sourceTree = "<group>"; };
+		2FB61B6F1DA2AD390068838A /* 90DegreesNorth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 90DegreesNorth.jpg; sourceTree = "<group>"; };
+		2FB61B701DA2AD390068838A /* AccidentsBlundersAndCalamities.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AccidentsBlundersAndCalamities.jpg; sourceTree = "<group>"; };
+		2FB61B711DA2AD390068838A /* AnActOfLove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnActOfLove.jpg; sourceTree = "<group>"; };
+		2FB61B721DA2AD390068838A /* AnArmsLength.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnArmsLength.jpg; sourceTree = "<group>"; };
+		2FB61B731DA2AD390068838A /* AprilAndTheExtraordinaryWorld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AprilAndTheExtraordinaryWorld.jpg; sourceTree = "<group>"; };
+		2FB61B741DA2AD390068838A /* BaconandGodsWrath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaconandGodsWrath.jpg; sourceTree = "<group>"; };
+		2FB61B751DA2AD390068838A /* BecomingBlair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BecomingBlair.jpg; sourceTree = "<group>"; };
+		2FB61B761DA2AD390068838A /* BeingCharlie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeingCharlie.jpg; sourceTree = "<group>"; };
+		2FB61B771DA2AD390068838A /* BestAndMostBeautifulThings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BestAndMostBeautifulThings.jpg; sourceTree = "<group>"; };
+		2FB61B781DA2AD390068838A /* BoyRazor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BoyRazor.jpg; sourceTree = "<group>"; };
+		2FB61B791DA2AD390068838A /* Bridgend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridgend.jpg; sourceTree = "<group>"; };
+		2FB61B7A1DA2AD390068838A /* ButterflyHunter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ButterflyHunter.jpg; sourceTree = "<group>"; };
+		2FB61B7B1DA2AD390068838A /* Carlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carlo.jpg; sourceTree = "<group>"; };
+		2FB61B7C1DA2AD390068838A /* Cheerleader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheerleader.png; sourceTree = "<group>"; };
+		2FB61B7D1DA2AD390068838A /* CrushTheSkull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CrushTheSkull.jpg; sourceTree = "<group>"; };
+		2FB61B7E1DA2AD390068838A /* DannySays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DannySays.jpg; sourceTree = "<group>"; };
+		2FB61B7F1DA2AD390068838A /* DeerFlower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DeerFlower.jpg; sourceTree = "<group>"; };
+		2FB61B801DA2AD390068838A /* Dissonance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dissonance.jpg; sourceTree = "<group>"; };
+		2FB61B811DA2AD390068838A /* DonaldCried.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DonaldCried.jpg; sourceTree = "<group>"; };
+		2FB61B821DA2AD390068838A /* Edmond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Edmond.jpg; sourceTree = "<group>"; };
+		2FB61B831DA2AD390068838A /* Embers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Embers.jpg; sourceTree = "<group>"; };
+		2FB61B841DA2AD390068838A /* Entrapped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Entrapped.jpg; sourceTree = "<group>"; };
+		2FB61B851DA2AD390068838A /* Figure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Figure.jpg; sourceTree = "<group>"; };
+		2FB61B861DA2AD390068838A /* GhostCell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GhostCell.jpg; sourceTree = "<group>"; };
+		2FB61B871DA2AD390068838A /* HighRise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HighRise.jpg; sourceTree = "<group>"; };
+		2FB61B881DA2AD390068838A /* HiHowAreYouDanielJohnston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HiHowAreYouDanielJohnston.jpg; sourceTree = "<group>"; };
+		2FB61B891DA2AD390068838A /* HoneyBuddies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HoneyBuddies.jpg; sourceTree = "<group>"; };
+		2FB61B8A1DA2AD390068838A /* HooliganSparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HooliganSparrow.png; sourceTree = "<group>"; };
+		2FB61B8B1DA2AD390068838A /* HunkyDory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HunkyDory.jpg; sourceTree = "<group>"; };
+		2FB61B8C1DA2AD390068838A /* IAmYupik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IAmYupik.jpg; sourceTree = "<group>"; };
+		2FB61B8D1DA2AD390068838A /* IThoughtIToldYouToShutUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IThoughtIToldYouToShutUp.jpg; sourceTree = "<group>"; };
+		2FB61B8E1DA2AD390068838A /* KingGeorges.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KingGeorges.jpg; sourceTree = "<group>"; };
+		2FB61B8F1DA2AD390068838A /* Lamb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lamb.jpg; sourceTree = "<group>"; };
+		2FB61B901DA2AD390068838A /* LeftOnPurpose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftOnPurpose.jpg; sourceTree = "<group>"; };
+		2FB61B911DA2AD390068838A /* LifeIsRugged.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LifeIsRugged.jpg; sourceTree = "<group>"; };
+		2FB61B921DA2AD390068838A /* LifeSmartphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LifeSmartphone.jpg; sourceTree = "<group>"; };
+		2FB61B931DA2AD390068838A /* LifeWithHermanHRott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LifeWithHermanHRott.jpg; sourceTree = "<group>"; };
+		2FB61B941DA2AD390068838A /* LiveFastDrawYung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveFastDrawYung.jpg; sourceTree = "<group>"; };
+		2FB61B951DA2AD390068838A /* LoAndBeholdReveriesOfTheConnectedWorld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoAndBeholdReveriesOfTheConnectedWorld.jpg; sourceTree = "<group>"; };
+		2FB61B961DA2AD390068838A /* Lolo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lolo.jpg; sourceTree = "<group>"; };
+		2FB61B971DA2AD390068838A /* LouderThanBombs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LouderThanBombs.jpg; sourceTree = "<group>"; };
+		2FB61B981DA2AD390068838A /* LoveAndFriendship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoveAndFriendship.jpg; sourceTree = "<group>"; };
+		2FB61B991DA2AD390068838A /* Mad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mad.jpg; sourceTree = "<group>"; };
+		2FB61B9A1DA2AD390068838A /* ManVsSnakeTheLongAndTwistedTaleOfNibbler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManVsSnakeTheLongAndTwistedTaleOfNibbler.png; sourceTree = "<group>"; };
+		2FB61B9B1DA2AD390068838A /* MorrisFromAmerica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MorrisFromAmerica.jpg; sourceTree = "<group>"; };
+		2FB61B9C1DA2AD390068838A /* MyBigNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MyBigNight.jpg; sourceTree = "<group>"; };
+		2FB61B9D1DA2AD390068838A /* Nelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nelly.jpg; sourceTree = "<group>"; };
+		2FB61B9E1DA2AD390068838A /* Newman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Newman.jpg; sourceTree = "<group>"; };
+		2FB61B9F1DA2AD390068838A /* NormanLearJustAnotherVersionOfYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NormanLearJustAnotherVersionOfYou.jpg; sourceTree = "<group>"; };
+		2FB61BA01DA2AD390068838A /* Oktopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oktopus.jpg; sourceTree = "<group>"; };
+		2FB61BA11DA2AD390068838A /* PhantomBoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PhantomBoy.jpg; sourceTree = "<group>"; };
+		2FB61BA21DA2AD390068838A /* Pickle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pickle.jpg; sourceTree = "<group>"; };
+		2FB61BA31DA2AD390068838A /* PitterPatterGoesMyHeart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PitterPatterGoesMyHeart.jpg; sourceTree = "<group>"; };
+		2FB61BA41DA2AD390068838A /* PresentingPrincessShaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PresentingPrincessShaw.jpg; sourceTree = "<group>"; };
+		2FB61BA51DA2AD390068838A /* PureConcentricity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PureConcentricity.jpg; sourceTree = "<group>"; };
+		2FB61BA61DA2AD390068838A /* QueerHabits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QueerHabits.jpg; sourceTree = "<group>"; };
+		2FB61BA71DA2AD390068838A /* RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg; sourceTree = "<group>"; };
+		2FB61BA81DA2AD390068838A /* RomeoIsBleeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RomeoIsBleeding.jpg; sourceTree = "<group>"; };
+		2FB61BA91DA2AD390068838A /* Rotatio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rotatio.jpg; sourceTree = "<group>"; };
+		2FB61BAA1DA2AD390068838A /* SeedTheUntoldStory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SeedTheUntoldStory.jpg; sourceTree = "<group>"; };
+		2FB61BAB1DA2AD390068838A /* Seide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seide.jpg; sourceTree = "<group>"; };
+		2FB61BAC1DA2AD390068838A /* Semele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Semele.jpg; sourceTree = "<group>"; };
+		2FB61BAD1DA2AD390068838A /* Slash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slash.jpg; sourceTree = "<group>"; };
+		2FB61BAE1DA2AD390068838A /* Sonita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonita.jpg; sourceTree = "<group>"; };
+		2FB61BAF1DA2AD390068838A /* Supervenus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Supervenus.jpg; sourceTree = "<group>"; };
+		2FB61BB01DA2AD390068838A /* SylJohnsonAnyWayTheWindBlows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SylJohnsonAnyWayTheWindBlows.png; sourceTree = "<group>"; };
+		2FB61BB11DA2AD390068838A /* TakingFlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TakingFlight.jpg; sourceTree = "<group>"; };
+		2FB61BB21DA2AD390068838A /* ThankYouDelTheStoryOfTheDelCloseMarathon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThankYouDelTheStoryOfTheDelCloseMarathon.jpg; sourceTree = "<group>"; };
+		2FB61BB31DA2AD390068838A /* The JazzLoftAccordingToWEugeneSmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The JazzLoftAccordingToWEugeneSmith.jpg"; sourceTree = "<group>"; };
+		2FB61BB41DA2AD390068838A /* The100YearsShow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The100YearsShow.jpg; sourceTree = "<group>"; };
+		2FB61BB51DA2AD390068838A /* The414sTheOriginalTeenageHackers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The414sTheOriginalTeenageHackers.jpg; sourceTree = "<group>"; };
+		2FB61BB61DA2AD390068838A /* TheBabushkasOfChernobyl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBabushkasOfChernobyl.jpg; sourceTree = "<group>"; };
+		2FB61BB71DA2AD390068838A /* TheFamilyFang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheFamilyFang.jpg; sourceTree = "<group>"; };
+		2FB61BB81DA2AD390068838A /* TheHouseIsInnocent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheHouseIsInnocent.png; sourceTree = "<group>"; };
+		2FB61BB91DA2AD390068838A /* TheOtherKids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheOtherKids.jpg; sourceTree = "<group>"; };
+		2FB61BBA1DA2AD390068838A /* TheSendOff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheSendOff.jpg; sourceTree = "<group>"; };
+		2FB61BBB1DA2AD390068838A /* TheTrialsOfConstanceBakerMotley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheTrialsOfConstanceBakerMotley.jpg; sourceTree = "<group>"; };
+		2FB61BBC1DA2AD390068838A /* TheTricksList.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheTricksList.jpg; sourceTree = "<group>"; };
+		2FB61BBD1DA2AD390068838A /* Tickled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tickled.jpg; sourceTree = "<group>"; };
+		2FB61BBE1DA2AD390068838A /* Timber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Timber.jpg; sourceTree = "<group>"; };
+		2FB61BBF1DA2AD390068838A /* ToKeepTheLight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToKeepTheLight.jpg; sourceTree = "<group>"; };
+		2FB61BC01DA2AD390068838A /* TrafficStop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TrafficStop.jpg; sourceTree = "<group>"; };
+		2FB61BC11DA2AD390068838A /* Violet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Violet.jpg; sourceTree = "<group>"; };
+		2FB61BC21DA2AD390068838A /* VisitingHausbesuche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VisitingHausbesuche.jpg; sourceTree = "<group>"; };
+		2FB61BC31DA2AD390068838A /* WeLiveThis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WeLiveThis.jpg; sourceTree = "<group>"; };
+		2FB61BC41DA2AD390068838A /* Whole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Whole.jpg; sourceTree = "<group>"; };
+		2FB61BC51DA2AD390068838A /* WhosAfraidOfVirginiaWoolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhosAfraidOfVirginiaWoolf.jpg; sourceTree = "<group>"; };
+		2FC36D6E1DABCC75007C7FF4 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		2FDA95C41DAAD30200104F3E /* projector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projector.png; sourceTree = "<group>"; };
+		5B72B9A04BB59F317D6F6C30 /* Pods-FilmFest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFest2/Pods-FilmFest2.debug.xcconfig"; sourceTree = "<group>"; };
+		5BAF48A51DA299C000C01232 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		5FA985EC0D24F069B02828A9 /* Pods-FilmFest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFest2/Pods-FilmFest2.release.xcconfig"; sourceTree = "<group>"; };
+		C50C924ECFA808580252C285 /* Pods_FilmFest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmFest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3414F18F5D025320917AE77 /* Pods_FilmFest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmFest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F653A211D92FD980000A9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6891F0A9CC244092990AC51F /* Pods_FilmFest2.framework in Frameworks */,
+				9F469016B0A956BD19BD8F4C /* Pods_FilmFest2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02EB99EF36463CD0DA2D4F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50C924ECFA808580252C285 /* Pods_FilmFest2.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1DF0465AF7078A4702AD9486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3414F18F5D025320917AE77 /* Pods_FilmFest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F60CB8F1D94252A00FE3929 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F653A271D92FD990000A9FC /* AppDelegate.swift */,
+				2F87881F1D9708600009E29A /* LoginViewController.swift */,
+				2F60CB851D93069900FE3929 /* MoviesCollectionViewController.swift */,
+				2F7E3AC61DA03AB700CCA50D /* MovieDetailTableViewController.swift */,
+				2F60CB891D9306E800FE3929 /* FavoritesTableViewController.swift */,
+				2F60CB8B1D9424DE00FE3929 /* GenreTableViewController.swift */,
+				2F8788211D970CD20009E29A /* AppState.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2F60CB901D94253700FE3929 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F653A3B1D92FDDD0000A9FC /* Movie.swift */,
+				5BAF48A51DA299C000C01232 /* Favorites.swift */,
+				2F60CB961D946BD300FE3929 /* FIRDataObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2F60CB951D9425B300FE3929 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F60CB931D9425A200FE3929 /* MoviePosterCell.swift */,
+				2F60CB911D94257B00FE3929 /* FavoritesCell.swift */,
+				2F97B48B1DA3339E00531C55 /* RoundedCornersView.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		2F653A1B1D92FD980000A9FC = {
+			isa = PBXGroup;
+			children = (
+				2F653A261D92FD990000A9FC /* FilmFest2 */,
+				2F653A251D92FD990000A9FC /* Products */,
+				54B4DE23C976A0407C8F5280 /* Pods */,
+				1DF0465AF7078A4702AD9486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F653A251D92FD990000A9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F653A241D92FD990000A9FC /* FilmFest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F653A261D92FD990000A9FC /* FilmFest2 */ = {
+			isa = PBXGroup;
+			children = (
+				2FD8422E1DA1977E0030D22C /* Assets */,
+				2F60CB8F1D94252A00FE3929 /* View Controllers */,
+				2F8E4E0D1DA17F77001823DD /* Layout */,
+				2F60CB901D94253700FE3929 /* Models */,
+				2F60CB951D9425B300FE3929 /* Custom Cells */,
+				2F653A2D1D92FD990000A9FC /* Main.storyboard */,
+				2F653A321D92FD990000A9FC /* LaunchScreen.storyboard */,
+				2FA807D11D9D621600E3B481 /* FilmFest2.entitlements */,
+				2FD3F6CA1D9ACA4F00CCF29D /* Old VC's */,
+				02EB99EF36463CD0DA2D4F93 /* Frameworks */,
+			);
+			path = FilmFest2;
+			sourceTree = "<group>";
+		};
+		2F79108C1DA57FD30075CE75 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				2F79108D1DA5804C0075CE75 /* Star-25.png */,
+				2F79108E1DA5804C0075CE75 /* Tickets-25.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		2F8E4E0D1DA17F77001823DD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E4E0B1DA17F6D001823DD /* MovieLayout.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		2FB61B6D1DA2AD170068838A /* Posters */ = {
+			isa = PBXGroup;
+			children = (
+				2FB61B6E1DA2AD390068838A /* HuntForTheWilderpeople.jpg */,
+				2FB61B6F1DA2AD390068838A /* 90DegreesNorth.jpg */,
+				2FB61B701DA2AD390068838A /* AccidentsBlundersAndCalamities.jpg */,
+				2FB61B711DA2AD390068838A /* AnActOfLove.jpg */,
+				2FB61B721DA2AD390068838A /* AnArmsLength.jpg */,
+				2FB61B731DA2AD390068838A /* AprilAndTheExtraordinaryWorld.jpg */,
+				2FB61B741DA2AD390068838A /* BaconandGodsWrath.jpg */,
+				2FB61B751DA2AD390068838A /* BecomingBlair.jpg */,
+				2FB61B761DA2AD390068838A /* BeingCharlie.jpg */,
+				2FB61B771DA2AD390068838A /* BestAndMostBeautifulThings.jpg */,
+				2FB61B781DA2AD390068838A /* BoyRazor.jpg */,
+				2FB61B791DA2AD390068838A /* Bridgend.jpg */,
+				2FB61B7A1DA2AD390068838A /* ButterflyHunter.jpg */,
+				2FB61B7B1DA2AD390068838A /* Carlo.jpg */,
+				2FB61B7C1DA2AD390068838A /* Cheerleader.png */,
+				2FB61B7D1DA2AD390068838A /* CrushTheSkull.jpg */,
+				2FB61B7E1DA2AD390068838A /* DannySays.jpg */,
+				2FB61B7F1DA2AD390068838A /* DeerFlower.jpg */,
+				2FB61B801DA2AD390068838A /* Dissonance.jpg */,
+				2FB61B811DA2AD390068838A /* DonaldCried.jpg */,
+				2FB61B821DA2AD390068838A /* Edmond.jpg */,
+				2FB61B831DA2AD390068838A /* Embers.jpg */,
+				2FB61B841DA2AD390068838A /* Entrapped.jpg */,
+				2FB61B851DA2AD390068838A /* Figure.jpg */,
+				2FB61B861DA2AD390068838A /* GhostCell.jpg */,
+				2FB61B871DA2AD390068838A /* HighRise.jpg */,
+				2FB61B881DA2AD390068838A /* HiHowAreYouDanielJohnston.jpg */,
+				2FB61B891DA2AD390068838A /* HoneyBuddies.jpg */,
+				2FB61B8A1DA2AD390068838A /* HooliganSparrow.png */,
+				2FB61B8B1DA2AD390068838A /* HunkyDory.jpg */,
+				2FB61B8C1DA2AD390068838A /* IAmYupik.jpg */,
+				2FB61B8D1DA2AD390068838A /* IThoughtIToldYouToShutUp.jpg */,
+				2FB61B8E1DA2AD390068838A /* KingGeorges.jpg */,
+				2FB61B8F1DA2AD390068838A /* Lamb.jpg */,
+				2FB61B901DA2AD390068838A /* LeftOnPurpose.jpg */,
+				2FB61B911DA2AD390068838A /* LifeIsRugged.jpg */,
+				2FB61B921DA2AD390068838A /* LifeSmartphone.jpg */,
+				2FB61B931DA2AD390068838A /* LifeWithHermanHRott.jpg */,
+				2FB61B941DA2AD390068838A /* LiveFastDrawYung.jpg */,
+				2FB61B951DA2AD390068838A /* LoAndBeholdReveriesOfTheConnectedWorld.jpg */,
+				2FB61B961DA2AD390068838A /* Lolo.jpg */,
+				2FB61B971DA2AD390068838A /* LouderThanBombs.jpg */,
+				2FB61B981DA2AD390068838A /* LoveAndFriendship.jpg */,
+				2FB61B991DA2AD390068838A /* Mad.jpg */,
+				2FB61B9A1DA2AD390068838A /* ManVsSnakeTheLongAndTwistedTaleOfNibbler.png */,
+				2FB61B9B1DA2AD390068838A /* MorrisFromAmerica.jpg */,
+				2FB61B9C1DA2AD390068838A /* MyBigNight.jpg */,
+				2FB61B9D1DA2AD390068838A /* Nelly.jpg */,
+				2FB61B9E1DA2AD390068838A /* Newman.jpg */,
+				2FB61B9F1DA2AD390068838A /* NormanLearJustAnotherVersionOfYou.jpg */,
+				2FB61BA01DA2AD390068838A /* Oktopus.jpg */,
+				2FB61BA11DA2AD390068838A /* PhantomBoy.jpg */,
+				2FB61BA21DA2AD390068838A /* Pickle.jpg */,
+				2FB61BA31DA2AD390068838A /* PitterPatterGoesMyHeart.jpg */,
+				2FB61BA41DA2AD390068838A /* PresentingPrincessShaw.jpg */,
+				2FB61BA51DA2AD390068838A /* PureConcentricity.jpg */,
+				2FB61BA61DA2AD390068838A /* QueerHabits.jpg */,
+				2FB61BA71DA2AD390068838A /* RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg */,
+				2FB61BA81DA2AD390068838A /* RomeoIsBleeding.jpg */,
+				2FB61BA91DA2AD390068838A /* Rotatio.jpg */,
+				2FB61BAA1DA2AD390068838A /* SeedTheUntoldStory.jpg */,
+				2FB61BAB1DA2AD390068838A /* Seide.jpg */,
+				2FB61BAC1DA2AD390068838A /* Semele.jpg */,
+				2FB61BAD1DA2AD390068838A /* Slash.jpg */,
+				2FB61BAE1DA2AD390068838A /* Sonita.jpg */,
+				2FB61BAF1DA2AD390068838A /* Supervenus.jpg */,
+				2FB61BB01DA2AD390068838A /* SylJohnsonAnyWayTheWindBlows.png */,
+				2FB61BB11DA2AD390068838A /* TakingFlight.jpg */,
+				2FB61BB21DA2AD390068838A /* ThankYouDelTheStoryOfTheDelCloseMarathon.jpg */,
+				2FB61BB31DA2AD390068838A /* The JazzLoftAccordingToWEugeneSmith.jpg */,
+				2FB61BB41DA2AD390068838A /* The100YearsShow.jpg */,
+				2FB61BB51DA2AD390068838A /* The414sTheOriginalTeenageHackers.jpg */,
+				2FB61BB61DA2AD390068838A /* TheBabushkasOfChernobyl.jpg */,
+				2FB61BB71DA2AD390068838A /* TheFamilyFang.jpg */,
+				2FB61BB81DA2AD390068838A /* TheHouseIsInnocent.png */,
+				2FB61BB91DA2AD390068838A /* TheOtherKids.jpg */,
+				2FB61BBA1DA2AD390068838A /* TheSendOff.jpg */,
+				2FB61BBB1DA2AD390068838A /* TheTrialsOfConstanceBakerMotley.jpg */,
+				2FB61BBC1DA2AD390068838A /* TheTricksList.jpg */,
+				2FB61BBD1DA2AD390068838A /* Tickled.jpg */,
+				2FB61BBE1DA2AD390068838A /* Timber.jpg */,
+				2FB61BBF1DA2AD390068838A /* ToKeepTheLight.jpg */,
+				2FB61BC01DA2AD390068838A /* TrafficStop.jpg */,
+				2FB61BC11DA2AD390068838A /* Violet.jpg */,
+				2FB61BC21DA2AD390068838A /* VisitingHausbesuche.jpg */,
+				2FB61BC31DA2AD390068838A /* WeLiveThis.jpg */,
+				2FB61BC41DA2AD390068838A /* Whole.jpg */,
+				2FB61BC51DA2AD390068838A /* WhosAfraidOfVirginiaWoolf.jpg */,
+			);
+			name = Posters;
+			sourceTree = "<group>";
+		};
+		2FD3F6CA1D9ACA4F00CCF29D /* Old VC's */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Old VC's";
+			sourceTree = "<group>";
+		};
+		2FD8422E1DA1977E0030D22C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2FDA95C11DAAD13B00104F3E /* Backgrounds */,
+				2F79108C1DA57FD30075CE75 /* Icons */,
+				2FB61B6D1DA2AD170068838A /* Posters */,
+				2F653A351D92FD990000A9FC /* Info.plist */,
+				2F653A3D1D92FE710000A9FC /* GoogleService-Info.plist */,
+				2FC36D6E1DABCC75007C7FF4 /* Icon.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2FDA95C11DAAD13B00104F3E /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				2FDA95C41DAAD30200104F3E /* projector.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		54B4DE23C976A0407C8F5280 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B72B9A04BB59F317D6F6C30 /* Pods-FilmFest2.debug.xcconfig */,
+				5FA985EC0D24F069B02828A9 /* Pods-FilmFest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F653A231D92FD980000A9FC /* FilmFest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F653A381D92FD990000A9FC /* Build configuration list for PBXNativeTarget "FilmFest2" */;
+			buildPhases = (
+				5DEC5C1639C5DC4C294FEEA9 /* 📦 Check Pods Manifest.lock */,
+				2F653A201D92FD980000A9FC /* Sources */,
+				2F653A211D92FD980000A9FC /* Frameworks */,
+				2F653A221D92FD980000A9FC /* Resources */,
+				CD3498FBD7493656EB25F5D6 /* 📦 Embed Pods Frameworks */,
+				E07B7723C319A131732C2B5D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmFest2;
+			productName = FilmFest2;
+			productReference = 2F653A241D92FD990000A9FC /* FilmFest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F653A1C1D92FD980000A9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tyler;
+				TargetAttributes = {
+					2F653A231D92FD980000A9FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6DMEA6Z5ZU;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2F653A1F1D92FD980000A9FC /* Build configuration list for PBXProject "FilmFest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F653A1B1D92FD980000A9FC;
+			productRefGroup = 2F653A251D92FD990000A9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F653A231D92FD980000A9FC /* FilmFest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F653A221D92FD980000A9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB61BFE1DA2AD390068838A /* QueerHabits.jpg in Resources */,
+				2FB61BC91DA2AD390068838A /* AnActOfLove.jpg in Resources */,
+				2FB61C1C1DA2AD390068838A /* Whole.jpg in Resources */,
+				2FB61C131DA2AD390068838A /* TheTrialsOfConstanceBakerMotley.jpg in Resources */,
+				2F653A3E1D92FE710000A9FC /* GoogleService-Info.plist in Resources */,
+				2FB61BEE1DA2AD390068838A /* Lolo.jpg in Resources */,
+				2FB61BE11DA2AD390068838A /* HoneyBuddies.jpg in Resources */,
+				2FB61C101DA2AD390068838A /* TheHouseIsInnocent.png in Resources */,
+				2FB61BE31DA2AD390068838A /* HunkyDory.jpg in Resources */,
+				2FB61BE01DA2AD390068838A /* HiHowAreYouDanielJohnston.jpg in Resources */,
+				2FB61BE71DA2AD390068838A /* Lamb.jpg in Resources */,
+				2FB61BCD1DA2AD390068838A /* BecomingBlair.jpg in Resources */,
+				2FB61BCB1DA2AD390068838A /* AprilAndTheExtraordinaryWorld.jpg in Resources */,
+				2F653A341D92FD990000A9FC /* LaunchScreen.storyboard in Resources */,
+				2FC36D6F1DABCC75007C7FF4 /* Icon.xcassets in Resources */,
+				2FB61C121DA2AD390068838A /* TheSendOff.jpg in Resources */,
+				2FB61C051DA2AD390068838A /* Slash.jpg in Resources */,
+				2FB61BE91DA2AD390068838A /* LifeIsRugged.jpg in Resources */,
+				2FB61C1D1DA2AD390068838A /* WhosAfraidOfVirginiaWoolf.jpg in Resources */,
+				2FB61BD51DA2AD390068838A /* CrushTheSkull.jpg in Resources */,
+				2FB61BFF1DA2AD390068838A /* RaidersTheStoryOfTheGreatestFanFilmEverMade.jpg in Resources */,
+				2FB61BF51DA2AD390068838A /* Nelly.jpg in Resources */,
+				2FB61BED1DA2AD390068838A /* LoAndBeholdReveriesOfTheConnectedWorld.jpg in Resources */,
+				2FB61BD31DA2AD390068838A /* Carlo.jpg in Resources */,
+				2FB61BF41DA2AD390068838A /* MyBigNight.jpg in Resources */,
+				2FB61BF81DA2AD390068838A /* Oktopus.jpg in Resources */,
+				2FB61C141DA2AD390068838A /* TheTricksList.jpg in Resources */,
+				2FB61BD91DA2AD390068838A /* DonaldCried.jpg in Resources */,
+				2FB61BDC1DA2AD390068838A /* Entrapped.jpg in Resources */,
+				2FB61C171DA2AD390068838A /* ToKeepTheLight.jpg in Resources */,
+				2FB61C181DA2AD390068838A /* TrafficStop.jpg in Resources */,
+				2FB61BEA1DA2AD390068838A /* LifeSmartphone.jpg in Resources */,
+				2FB61BE61DA2AD390068838A /* KingGeorges.jpg in Resources */,
+				2FB61C1A1DA2AD390068838A /* VisitingHausbesuche.jpg in Resources */,
+				2FB61C041DA2AD390068838A /* Semele.jpg in Resources */,
+				2FB61C0B1DA2AD390068838A /* The JazzLoftAccordingToWEugeneSmith.jpg in Resources */,
+				2F7910901DA5804C0075CE75 /* Tickets-25.png in Resources */,
+				2FB61BC71DA2AD390068838A /* 90DegreesNorth.jpg in Resources */,
+				2FB61BC61DA2AD390068838A /* HuntForTheWilderpeople.jpg in Resources */,
+				2FB61C111DA2AD390068838A /* TheOtherKids.jpg in Resources */,
+				2FB61BE81DA2AD390068838A /* LeftOnPurpose.jpg in Resources */,
+				2FB61BCF1DA2AD390068838A /* BestAndMostBeautifulThings.jpg in Resources */,
+				2FB61BFA1DA2AD390068838A /* Pickle.jpg in Resources */,
+				2FB61C011DA2AD390068838A /* Rotatio.jpg in Resources */,
+				2FB61C021DA2AD390068838A /* SeedTheUntoldStory.jpg in Resources */,
+				2FB61C0F1DA2AD390068838A /* TheFamilyFang.jpg in Resources */,
+				2FB61BD01DA2AD390068838A /* BoyRazor.jpg in Resources */,
+				2FB61BEF1DA2AD390068838A /* LouderThanBombs.jpg in Resources */,
+				2FB61C031DA2AD390068838A /* Seide.jpg in Resources */,
+				2FB61C0D1DA2AD390068838A /* The414sTheOriginalTeenageHackers.jpg in Resources */,
+				2FB61BF11DA2AD390068838A /* Mad.jpg in Resources */,
+				2FB61BC81DA2AD390068838A /* AccidentsBlundersAndCalamities.jpg in Resources */,
+				2FB61BF31DA2AD390068838A /* MorrisFromAmerica.jpg in Resources */,
+				2FB61BEB1DA2AD390068838A /* LifeWithHermanHRott.jpg in Resources */,
+				2FB61C161DA2AD390068838A /* Timber.jpg in Resources */,
+				2FB61BFB1DA2AD390068838A /* PitterPatterGoesMyHeart.jpg in Resources */,
+				2FB61BDE1DA2AD390068838A /* GhostCell.jpg in Resources */,
+				2FB61BF61DA2AD390068838A /* Newman.jpg in Resources */,
+				2FB61C151DA2AD390068838A /* Tickled.jpg in Resources */,
+				2FDA95C51DAAD30200104F3E /* projector.png in Resources */,
+				2FB61BD11DA2AD390068838A /* Bridgend.jpg in Resources */,
+				2FB61C091DA2AD390068838A /* TakingFlight.jpg in Resources */,
+				2FB61BD61DA2AD390068838A /* DannySays.jpg in Resources */,
+				2FB61BDB1DA2AD390068838A /* Embers.jpg in Resources */,
+				2FB61C081DA2AD390068838A /* SylJohnsonAnyWayTheWindBlows.png in Resources */,
+				2FB61BF21DA2AD390068838A /* ManVsSnakeTheLongAndTwistedTaleOfNibbler.png in Resources */,
+				2FB61BCA1DA2AD390068838A /* AnArmsLength.jpg in Resources */,
+				2FB61BF01DA2AD390068838A /* LoveAndFriendship.jpg in Resources */,
+				2FB61C001DA2AD390068838A /* RomeoIsBleeding.jpg in Resources */,
+				2FB61C0E1DA2AD390068838A /* TheBabushkasOfChernobyl.jpg in Resources */,
+				2FB61BDF1DA2AD390068838A /* HighRise.jpg in Resources */,
+				2FB61C071DA2AD390068838A /* Supervenus.jpg in Resources */,
+				2FB61BE21DA2AD390068838A /* HooliganSparrow.png in Resources */,
+				2FB61BDD1DA2AD390068838A /* Figure.jpg in Resources */,
+				2FB61C0A1DA2AD390068838A /* ThankYouDelTheStoryOfTheDelCloseMarathon.jpg in Resources */,
+				2FB61BDA1DA2AD390068838A /* Edmond.jpg in Resources */,
+				2FB61C0C1DA2AD390068838A /* The100YearsShow.jpg in Resources */,
+				2FB61BD71DA2AD390068838A /* DeerFlower.jpg in Resources */,
+				2FB61BCE1DA2AD390068838A /* BeingCharlie.jpg in Resources */,
+				2FB61BF91DA2AD390068838A /* PhantomBoy.jpg in Resources */,
+				2FB61BFC1DA2AD390068838A /* PresentingPrincessShaw.jpg in Resources */,
+				2FB61C191DA2AD390068838A /* Violet.jpg in Resources */,
+				2FB61C061DA2AD390068838A /* Sonita.jpg in Resources */,
+				2F79108F1DA5804C0075CE75 /* Star-25.png in Resources */,
+				2FB61BEC1DA2AD390068838A /* LiveFastDrawYung.jpg in Resources */,
+				2FB61BF71DA2AD390068838A /* NormanLearJustAnotherVersionOfYou.jpg in Resources */,
+				2FB61BCC1DA2AD390068838A /* BaconandGodsWrath.jpg in Resources */,
+				2FB61BD41DA2AD390068838A /* Cheerleader.png in Resources */,
+				2FB61BFD1DA2AD390068838A /* PureConcentricity.jpg in Resources */,
+				2FB61BD81DA2AD390068838A /* Dissonance.jpg in Resources */,
+				2FB61C1B1DA2AD390068838A /* WeLiveThis.jpg in Resources */,
+				2FB61BE51DA2AD390068838A /* IThoughtIToldYouToShutUp.jpg in Resources */,
+				2F653A2F1D92FD990000A9FC /* Main.storyboard in Resources */,
+				2FB61BD21DA2AD390068838A /* ButterflyHunter.jpg in Resources */,
+				2FB61BE41DA2AD390068838A /* IAmYupik.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DEC5C1639C5DC4C294FEEA9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3498FBD7493656EB25F5D6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmFest2/Pods-FilmFest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07B7723C319A131732C2B5D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmFest2/Pods-FilmFest2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F653A201D92FD980000A9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F60CB861D93069900FE3929 /* MoviesCollectionViewController.swift in Sources */,
+				2F653A281D92FD990000A9FC /* AppDelegate.swift in Sources */,
+				2F8E4E0C1DA17F6D001823DD /* MovieLayout.swift in Sources */,
+				2F60CB941D9425A200FE3929 /* MoviePosterCell.swift in Sources */,
+				2F653A3C1D92FDDD0000A9FC /* Movie.swift in Sources */,
+				2F60CB8A1D9306E800FE3929 /* FavoritesTableViewController.swift in Sources */,
+				2F97B48C1DA3339E00531C55 /* RoundedCornersView.swift in Sources */,
+				2F8788221D970CD20009E29A /* AppState.swift in Sources */,
+				2F60CB8C1D9424DE00FE3929 /* GenreTableViewController.swift in Sources */,
+				2F60CB971D946BD400FE3929 /* FIRDataObject.swift in Sources */,
+				2F7E3AC71DA03AB700CCA50D /* MovieDetailTableViewController.swift in Sources */,
+				5BAF48A61DA299C000C01232 /* Favorites.swift in Sources */,
+				2F8788201D9708600009E29A /* LoginViewController.swift in Sources */,
+				2F60CB921D94257B00FE3929 /* FavoritesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F653A2D1D92FD990000A9FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F653A2E1D92FD990000A9FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F653A321D92FD990000A9FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F653A331D92FD990000A9FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F653A361D92FD990000A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F653A371D92FD990000A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F653A391D92FD990000A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B72B9A04BB59F317D6F6C30 /* Pods-FilmFest2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FilmFest2/FilmFest2.entitlements;
+				DEVELOPMENT_TEAM = 6DMEA6Z5ZU;
+				INFOPLIST_FILE = FilmFest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.FilmFest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F653A3A1D92FD990000A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA985EC0D24F069B02828A9 /* Pods-FilmFest2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FilmFest2/FilmFest2.entitlements;
+				DEVELOPMENT_TEAM = 6DMEA6Z5ZU;
+				INFOPLIST_FILE = FilmFest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.FilmFest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F653A1F1D92FD980000A9FC /* Build configuration list for PBXProject "FilmFest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F653A361D92FD990000A9FC /* Debug */,
+				2F653A371D92FD990000A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F653A381D92FD990000A9FC /* Build configuration list for PBXNativeTarget "FilmFest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F653A391D92FD990000A9FC /* Debug */,
+				2F653A3A1D92FD990000A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F653A1C1D92FD980000A9FC /* Project object */;
+}
