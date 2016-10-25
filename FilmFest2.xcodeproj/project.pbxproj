@@ -522,7 +522,7 @@
 				TargetAttributes = {
 					2F653A231D92FD980000A9FC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6DMEA6Z5ZU;
+						DevelopmentTeam = NTJUS326KK;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -844,7 +844,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FilmFest2/FilmFest2.entitlements;
-				DEVELOPMENT_TEAM = 6DMEA6Z5ZU;
+				DEVELOPMENT_TEAM = NTJUS326KK;
 				INFOPLIST_FILE = FilmFest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.FilmFest2;
@@ -859,7 +859,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FilmFest2/FilmFest2.entitlements;
-				DEVELOPMENT_TEAM = 6DMEA6Z5ZU;
+				DEVELOPMENT_TEAM = NTJUS326KK;
 				INFOPLIST_FILE = FilmFest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.FilmFest2;

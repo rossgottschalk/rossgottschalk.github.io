@@ -62,7 +62,7 @@ class ConsoleViewController: UIViewController, SetDestinationDelegate
     
     @IBAction func travelBackTapped(sender: AnyObject)
     {
-        speedTimer = Timer.scheduledTimer(timeInterval: 0.03, target: self, selector: #selector (ConsoleViewController.travelBackStarted), userInfo: nil, repeats: true)
+        speedTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector (ConsoleViewController.travelBackStarted), userInfo: nil, repeats: true)
     }
     
     func travelBackStarted()
